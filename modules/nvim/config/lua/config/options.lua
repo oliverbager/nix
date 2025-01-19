@@ -9,5 +9,7 @@ vim.cmd [[
   \'Overfull',
   \'Warning',
   \'Missing',
+  \'Undefined',
+  \'systeme',
   \]
 ]]
