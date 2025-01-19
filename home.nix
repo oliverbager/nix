@@ -22,7 +22,7 @@
 
     # document viewers
     zathura
-    neovim
+    # neovim
 
     # utils
     ripgrep
