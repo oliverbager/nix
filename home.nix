@@ -10,6 +10,10 @@
     ./modules
   ];
 
+  home.packacges = with pkgs; [
+    # empty
+  ];
+
   # config
   home.stateVersion = "24.11";
   programs.home-manager.enable = true;
