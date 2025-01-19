@@ -45,6 +45,11 @@
     texlive.combined.scheme-full
   ];
 
+  fonts.packages = with pkgs [
+    (nerdfonts.override {fonts = [ JetBrainsMono ]; })
+    jetbrainsmono
+  ];
+
   programs.git = {
     enable = true;
     userName = "Oliver";
