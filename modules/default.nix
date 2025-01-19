@@ -36,7 +36,7 @@
     git
     
     # latex
-    texlive.combined.schene-full
+    texlive.combined.scheme-full
   ];
 
   programs.git = {
