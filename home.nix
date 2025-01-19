@@ -4,6 +4,10 @@
   home.username = "oliver";
   home.homeDirectory = "/home/oliver";
 
+  imports = [
+    ./modules
+  ];
+
   home.packages = with pkgs; [
 
     # communication
