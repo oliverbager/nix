@@ -3,43 +3,14 @@ local in_mathzone = function()
 end
 
 return {
-  s({trig = "ff", snippetType = "autosnippet"},
-    fmta(
-      "\\frac{<>}{<>}",
-      {
-        i(1),
-        i(2),
-      }
-    ),
-    {condition = in_mathzone}
-  ),
-}
-
--- return {
---   s({trig = "bmat", snippetType = "autosnippet"},
---     fmta(
---       "\\begin{bmatrix}<>\\end{bmatrix}",
---       {
---         i(1),
---       }
---     )
---     {condition = in_mathzone}
---   ),
--- }
-
-return {
-s({trig = "env", snippetType="autosnippet"},
+s({trig = "ff"},
   fmta(
-    [[
-      \begin{<>}
-          <>
-      \end{<>}
-    ]],
+    "\\frac{<>}{<>}",
     {
       i(1),
       i(2),
-      rep(1),
     }
-  )
+  ),
+  {condition = in_mathzone}
 ),
 }
