@@ -4,6 +4,34 @@ end
 
 return 
 {
+  s({trig = "benv", snippetType = "autosnippet"},
+    fmta(
+      [[
+      \\begin{<>}
+          <>
+      \\end{<>
+      ]],
+      {
+        i(1),
+        i(2),
+        rep(1),
+      }
+    )
+  ),
+
+  s({trig = "dm", snippetType = "autosnippet"},
+    fmta(
+      [[
+      \\[
+          <>
+      \\]
+      ]],
+      {
+        i(1), 
+      }
+    )
+  ),
+
   s({trig = "ff", snippetType = "autosnippet"},
     fmta(
       "\\frac{<>}{<>}",
