@@ -43,12 +43,11 @@
     
     # latex
     texlive.combined.scheme-full
+    # fonts
+    (nerdfonts.override {fonts = [ JetBrainsMono ]; })
   ];
 
-  fonts.packages = with pkgs [
-    (nerdfonts.override {fonts = [ JetBrainsMono ]; })
-    jetbrainsmono
-  ];
+  fonts.fontconfig.enable = true;
 
   programs.git = {
     enable = true;
