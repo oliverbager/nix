@@ -7,9 +7,9 @@ return
   s({trig = "benv", snippetType = "autosnippet"},
     fmta(
       [[
-      \\begin{<>}
+      \begin{<>}
           <>
-      \\end{<>
+      \end{<>
       ]],
       {
         i(1),
@@ -22,9 +22,9 @@ return
   s({trig = "dm", snippetType = "autosnippet"},
     fmta(
       [[
-      \\[
+      \[
           <>
-      \\]
+      \]
       ]],
       {
         i(1), 
