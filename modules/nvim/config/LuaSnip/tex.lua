@@ -82,14 +82,14 @@ return {
 
   s({trig = "ldd", snippetType = "autosnippet"},
     t(
-      "\\ldots",
+      "\\ldots"
     ),
     {condition = in_mathzone}
   ),
 
   s({trig = "cdd", snippetType = "autosnippet"},
     t(
-      "\\cdots",
+      "\\cdots"
     ),
     {condition = in_mathzone}
   ),
@@ -140,7 +140,7 @@ return {
 
   s({trig = "=>", snippetType = "autosnippet"},
     t(
-      "\\implies",
+      "\\implies"
     ),
     {condition = in_mathzone}
   ),
