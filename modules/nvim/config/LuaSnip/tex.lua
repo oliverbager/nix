@@ -2,22 +2,8 @@ local in_mathzone = function()
   return vim.fn['vimtex#syntax#in_mathzone']() == 1
 end
 
-return {
-  -- s({trig = "env", snippetType = "autosnippet"},
-  --   fmta(
-  --     [[
-  --     \begin{<>}
-  --         <>
-  --     \end{<>}
-  --     ]],
-  --     {
-  --       i(1),
-  --       i(2),
-  --       rep(1),
-  --     }
-  --   )
-  -- ),
-
+return 
+{
   s({trig = "ff", snippetType = "autosnippet"},
     fmta(
       "\\frac{<>}{<>}",
@@ -32,10 +18,9 @@ return {
   s({trig = "bmat", snippetType = "autosnippet"},
     fmta(
       "\\begin{bmatrix}<>\\end{bmatrix}",
-      {
-        i(1),
-        i(2),
-      }
+        {
+          i(1),
+        }
     ),
     {condition = in_mathzone}
   ),
@@ -43,9 +28,9 @@ return {
   s({trig = "^", snippetType = "autosnippet"},
     fmta(
       "^{<>}",
-      {
-        i(1),
-      }
+        {
+          i(1),
+        }
     ),
     {condition = in_mathzone}
   ),
@@ -53,8 +38,58 @@ return {
   s({trig = "_", snippetType = "autosnippet"},
     fmta(
       "_{<>}",
+        {
+          i(1),
+        }
+    ),
+    {condition = in_mathzone}
+  ),
+
+  s({trig = "tt", snippetType = "autosnippet"},
+    fmta(
+      "\\text{<>}",
+        {
+          i(1),
+        }
+    ),
+    {condition = in_mathzone}
+  ),
+
+  s({trig = "ovr", snippetType = "autosnippet"},
+    fmta(
+      "\\overline{<>}",
       {
-        i(1),
+        i(1), 
+      }
+    ),
+    {condition = in_mathzone}
+  ),
+
+  s({trig = "vec", snippetType = "autosnippet"},
+    fmta(
+      "\\xoverarrow{<>}",
+      {
+        i(2), 
+      }
+    ),
+    {condition = in_mathzone}
+  ),
+
+  s({trig = "**", snippetType = "autosnippet"},
+    fmta(
+      "\\mathbf{<>}",
+      {
+        i(2), 
+      }
+    ),
+    {condition = in_mathzone}
+  ),
+
+  s({trig = "bf", snippetType = "autosnippet"},
+    fmta(
+      "\\mathbf{<>}",
+      {
+        i(2), 
       }
     ),
     {condition = in_mathzone}
@@ -64,38 +99,7 @@ return {
     fmta(
       "\\sqrt{<>}",
       {
-        i(1),
-      }
-    ),
-    {condition = in_mathzone}
-  ),
-
-  s({trig = "tt", snippetType = "autosnippet"},
-    fmta(
-      "\\text{<>}",
-      {
-        i(1),
-      }
-    ),
-    {condition = in_mathzone}
-  ),
-
-  s({trig = "ldd", snippetType = "autosnippet"},
-    t("\\ldots"),
-    {condition = in_mathzone}
-  ),
-
-  s({trig = "cdd", snippetType = "autosnippet"},
-    t("\\cdots"),
-    {condition = in_mathzone}
-  ),
-
-  s({trig = "sum", snippetType = "autosnippet"},
-    fmta(
-      "\\sum_{k=<>}^{<>}",
-      {
-        i(1),
-        i(2),
+        i(2), 
       }
     ),
     {condition = in_mathzone}
@@ -105,8 +109,8 @@ return {
     fmta(
       "\\int_{<>}^{<>}",
       {
-        i(1),
         i(2),
+        i(3),
       }
     ),
     {condition = in_mathzone}
@@ -116,8 +120,8 @@ return {
     fmta(
       "\\iint_{<>}^{<>}",
       {
-        i(1),
         i(2),
+        i(3),
       }
     ),
     {condition = in_mathzone}
@@ -127,15 +131,24 @@ return {
     fmta(
       "\\iiint_{<>}^{<>}",
       {
-        i(1),
         i(2),
+        i(3),
       }
     ),
     {condition = in_mathzone}
   ),
 
+  s({trig = "inf", snippetType = "autosnippet"},
+    t(
+      "\\infty"
+    ),
+    {condition = in_mathzone}
+  ),
+
   s({trig = "=>", snippetType = "autosnippet"},
-    t("\\implies"),
+    t(
+      "=>"
+    ),
     {condition = in_mathzone}
   ),
 }
