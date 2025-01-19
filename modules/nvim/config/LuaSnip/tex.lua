@@ -97,7 +97,7 @@ return
     fmta(
       "\\xoverarrow{<>}",
       {
-        i(2), 
+        i(1), 
       }
     ),
     {condition = in_mathzone}
@@ -107,17 +107,17 @@ return
     fmta(
       "\\mathbf{<>}",
       {
-        i(2), 
+        i(1), 
       }
     ),
     {condition = in_mathzone}
   ),
 
-  s({trig = "bf", snippetType = "autosnippet"},
+  s({trig = "bb", snippetType = "autosnippet"},
     fmta(
-      "\\mathbf{<>}",
+      "\\mathbb{<>}",
       {
-        i(2), 
+        i(1), 
       }
     ),
     {condition = in_mathzone}
@@ -127,7 +127,7 @@ return
     fmta(
       "\\sqrt{<>}",
       {
-        i(2), 
+        i(1), 
       }
     ),
     {condition = in_mathzone}
@@ -137,8 +137,8 @@ return
     fmta(
       "\\int_{<>}^{<>}",
       {
+        i(1),
         i(2),
-        i(3),
       }
     ),
     {condition = in_mathzone}
@@ -148,8 +148,8 @@ return
     fmta(
       "\\iint_{<>}^{<>}",
       {
+        i(1),
         i(2),
-        i(3),
       }
     ),
     {condition = in_mathzone}
@@ -159,8 +159,8 @@ return
     fmta(
       "\\iiint_{<>}^{<>}",
       {
+        i(1),
         i(2),
-        i(3),
       }
     ),
     {condition = in_mathzone}
