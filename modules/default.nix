@@ -44,7 +44,7 @@
     # latex
     texlive.combined.scheme-full
     # fonts
-    (nerdfonts.override {fonts = [ JetBrainsMono ]; })
+    (nerdfonts.override {fonts = [ "JetBrainsMono" ]; })
   ];
 
   fonts.fontconfig.enable = true;
