@@ -3,3 +3,11 @@
 -- Add any additional options here
 
 vim.opt.wrap = true
+vim.cmd [[
+  let g:vimtex_quickfix_ignore_filters = [
+  \'Underfull',
+  \'Overfull',
+  \'Warning',
+  \'Missing',
+  \]
+]]
