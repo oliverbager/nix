@@ -11,6 +11,7 @@
   home.packages = with pkgs; [
 
     # communication
+    thunderbird
     vesktop
 
     # file management
@@ -21,6 +22,7 @@
     brave
 
     # utils
+    keepassxc
     ripgrep
     tree
     btop
