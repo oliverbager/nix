@@ -3,7 +3,7 @@ local in_mathzone = function()
 end
 
 return {
-  s({trig = "ff"},
+  s({trig = "ff", snippetType = "autosnippet"},
     fmta(
       "\\frac{<>}{<>}",
       {

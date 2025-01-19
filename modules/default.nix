@@ -22,8 +22,10 @@
     brave
 
     # utils
+    wl-clipboard
     keepassxc
     ripgrep
+    wget
     tree
     btop
     eza
@@ -34,6 +36,8 @@
     python3
     rustup
     nodejs
+    julia
+    lua
     gcc
     git
     
