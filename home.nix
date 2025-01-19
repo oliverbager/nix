@@ -10,7 +10,7 @@
     ./modules
   ];
 
-  home.packacges = with pkgs; [
+  home.packages = with pkgs; [
     # empty
   ];
 
