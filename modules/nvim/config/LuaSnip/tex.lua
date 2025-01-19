@@ -9,7 +9,7 @@ return
       [[
       \begin{<>}
           <>
-      \end{<>
+      \end{<>}
       ]],
       {
         i(1),
@@ -175,7 +175,7 @@ return
 
   s({trig = "=>", snippetType = "autosnippet"},
     t(
-      "=>"
+      "\\implies"
     ),
     {condition = in_mathzone}
   ),
