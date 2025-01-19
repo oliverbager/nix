@@ -81,14 +81,14 @@ return {
   ),
 
   s({trig = "ldd", snippetType = "autosnippet"},
-    fmta(
+    t(
       "\\ldots",
     ),
     {condition = in_mathzone}
   ),
 
   s({trig = "cdd", snippetType = "autosnippet"},
-    fmta(
+    t(
       "\\cdots",
     ),
     {condition = in_mathzone}
@@ -139,7 +139,7 @@ return {
   ),
 
   s({trig = "=>", snippetType = "autosnippet"},
-    fmta(
+    t(
       "\\implies",
     ),
     {condition = in_mathzone}
