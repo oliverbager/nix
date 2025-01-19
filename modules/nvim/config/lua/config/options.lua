@@ -10,6 +10,7 @@ vim.cmd [[
   \'Warning',
   \'Missing',
   \'Undefined',
+  \'a4',
   \'systeme',
   \]
 ]]
