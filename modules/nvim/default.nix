@@ -1,11 +1,13 @@
-{ config, pkgs, ... }: {
-    programs.neovim.enable = true;
+{ config, pkgs, ... }: 
 
-    xdg = {
-      enable = true;
-      configFile."nvim" = {
-        source = ./config;
-        recursive = true;
-      };
+{
+  programs.neovim.enable = true;
+
+  xdg = {
+    enable = true;
+    configFile."nvim" = {
+      source = ./config;
+      recursive = true;
     };
+  };
 }
