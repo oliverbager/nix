@@ -3,7 +3,7 @@ return
   s({trig = "snipn", snippetType = "autosnippet"},
     fmta(
       [[
-      s({trig = "<>", snippetType = "autosnippet"},
+      s({trig = "<>", snippetType = "autosnippet"<>},
         fmta(
           "<>",
           {
@@ -16,6 +16,7 @@ return
         i(1),
         i(2),
         i(3),
+        i(4),
       }
     )
   ),
@@ -23,7 +24,7 @@ return
   s({trig = "snipm", snippetType = "autosnippet"},
     fmta(
       [[
-      s({trig = "<>", snippetType = "autosnippet"},
+      s({trig = "<>", snippetType = "autosnippet"<>},
         fmta(
           "<>",
           {
@@ -37,6 +38,7 @@ return
         i(1),
         i(2),
         i(3),
+        i(4),
       }
     )
   ),

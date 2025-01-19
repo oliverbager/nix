@@ -19,7 +19,7 @@ return
     )
   ),
 
-  s({trig = "dm", snippetType = "autosnippet"},
+  s({trig = "dm", snippetType = "autosnippet", wordTrig = false},
     fmta(
       [[
       \[
@@ -32,7 +32,7 @@ return
     )
   ),
 
-  s({trig = "ff", snippetType = "autosnippet"},
+  s({trig = "ff", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\frac{<>}{<>}",
       {
@@ -43,7 +43,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "bmat", snippetType = "autosnippet"},
+  s({trig = "bmat", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\begin{bmatrix}<>\\end{bmatrix}",
         {
@@ -53,7 +53,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "^", snippetType = "autosnippet"},
+  s({trig = "^", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "^{<>}",
         {
@@ -63,7 +63,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "_", snippetType = "autosnippet"},
+  s({trig = "_", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "_{<>}",
         {
@@ -73,7 +73,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "tt", snippetType = "autosnippet"},
+  s({trig = "tt", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\text{<>}",
         {
@@ -83,7 +83,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "ovr", snippetType = "autosnippet"},
+  s({trig = "ovr", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\overline{<>}",
       {
@@ -93,7 +93,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "vec", snippetType = "autosnippet"},
+  s({trig = "vec", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\xoverarrow{<>}",
       {
@@ -103,7 +103,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "**", snippetType = "autosnippet"},
+  s({trig = "**", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\mathbf{<>}",
       {
@@ -113,7 +113,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "bb", snippetType = "autosnippet"},
+  s({trig = "bb", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\mathbb{<>}",
       {
@@ -123,7 +123,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "sq", snippetType = "autosnippet"},
+  s({trig = "sq", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\sqrt{<>}",
       {
@@ -133,7 +133,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "in1", snippetType = "autosnippet"},
+  s({trig = "in1", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\int_{<>}^{<>}",
       {
@@ -144,7 +144,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "in2", snippetType = "autosnippet"},
+  s({trig = "in2", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\iint_{<>}^{<>}",
       {
@@ -155,7 +155,7 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "in3", snippetType = "autosnippet"},
+  s({trig = "in3", snippetType = "autosnippet", wordTrig = false},
     fmta(
       "\\iiint_{<>}^{<>}",
       {
@@ -166,14 +166,14 @@ return
     {condition = in_mathzone}
   ),
 
-  s({trig = "inf", snippetType = "autosnippet"},
+  s({trig = "inf", snippetType = "autosnippet", wordTrig = false},
     t(
       "\\infty"
     ),
     {condition = in_mathzone}
   ),
 
-  s({trig = "=>", snippetType = "autosnippet"},
+  s({trig = "=>", snippetType = "autosnippet", wordTrig = false},
     t(
       "\\implies"
     ),
