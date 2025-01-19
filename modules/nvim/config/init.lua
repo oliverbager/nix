@@ -6,7 +6,7 @@ imap <silent><expr> <Tab> luasnip#expand_or_jumpable() ? '<Plug>luasnip-expand-o
 smap <silent><expr> <Tab> luasnip#jumpable(1) ? '<Plug>luasnip-jump-next' : '<Tab>'
 ]]
 
-require("luasnip.loaders.from_lua").load({paths = "~/.config/nvim/LuaSnip/"})
+require("luasnip.loaders.from_lua").load({paths = "~/.config/LuaSnip/"})
 
 require("luasnip").config.set_config({ -- Setting LuaSnip config
 
