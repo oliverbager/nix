@@ -7,10 +7,9 @@
   ];
 
   # desktop only packages
-  # home.packages = with pkgs; [
-    
+  home.packages = with pkgs; [
     # packages
-  # ];
+  ];
 
   #other options
 }
