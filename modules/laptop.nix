@@ -8,7 +8,6 @@
 
   # laptop only packages
   home.packages = with pkgs; [
-    
     # packages
   ];
 
