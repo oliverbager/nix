@@ -19,7 +19,7 @@
 
   nix.settings.auto-optimise-store = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "desktop"; # Define your hostname.
 
   # Enable networking
   networking.networkmanager.enable = true;
