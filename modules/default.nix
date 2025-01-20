@@ -23,6 +23,7 @@
 
     # utils
     wl-clipboard
+    obs-studio
     keepassxc
     ripgrep
     wget
