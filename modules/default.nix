@@ -38,12 +38,14 @@
     rustup
     nodejs
     julia
+    sage
     lua
     gcc
     git
     
     # latex
     texlive.combined.scheme-full
+
     # fonts
     (nerdfonts.override {fonts = [ "JetBrainsMono" ]; })
   ];
