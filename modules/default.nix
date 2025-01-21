@@ -15,17 +15,19 @@
     vesktop
 
     # file management
-    zip
     unzip
+    zip
 
     # browsers
     brave
 
     # utils
     wl-clipboard
+    qbittorrent
     obs-studio
     keepassxc
     ripgrep
+    qemu
     wget
     tree
     btop
