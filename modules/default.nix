@@ -24,9 +24,11 @@
     # utils
     wl-clipboard
     qbittorrent
+    imagemagick
     obs-studio
     keepassxc
     ripgrep
+    ffmpeg
     qemu
     wget
     tree
