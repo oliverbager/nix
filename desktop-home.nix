@@ -12,7 +12,7 @@
 
   home.packages = with pkgs; [
     osu-lazer-bin
-    steam
+    # steam
   ];
 
   # config
